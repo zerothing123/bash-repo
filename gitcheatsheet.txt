@@ -1,0 +1,29 @@
+git confid --global user.name "anup"
+git config --global user.email 'sarkaranup188@gmail.com'
+git config --list    =============>[to print all the availlable items]
+git init ==========?[to initialize the reposetry]
+git status ===========>[to know the status of the git reposatry]
+git add --a   ==========>[--a means to send all the files in the staging area]
+git commit -m "intial commit"  ======>[this si just to commit with a meessaeg (-m)]
+git log =========>[to check what all commits you made]
+
+now if we wanna edit a file then we have to edit that and run the following command :
+git add filename  ======>[THIS WILL SHOW THE FILENAME ON WHICH WE HAVE RUNNED THE ADD COMMAND AND THE OTHER FILE THAT WE 
+				HAVEN'T EDITED IN RED ]
+git commit -m "chaneged the filename and better"  ========>[to commit the changes with the mesage]
+
+git add --a =======>[if we have want to add everything on the staging area]  -------<[incase of a single file we have to 
+											use {git add filename} but incase of all 
+											{git add --a}]
+git commit -m "message"  ====>[to commit the changes]
+
+rm -rf .git ===========>[to remove the git repositery {it will delete the .git file}]
+
+FOR CLONING A GIT REPOSITY :-
+WE HAVE TO GO TO THE GITHUB PAGE OF THE REPOSITY WE WANNA COPY ---->THEN WE HAVE TO CLOCK ON THE CLONE OR THE DOWNLOAD BUTTON 
+---->THEN WE HAVE TO COPY THE URL
+
+NOW IN THE GIT BASH WE HAVE TO TYPE:
+====================================
+GIT CLONE https://github.com/tensorflow/tensorflow.git  ===>[THIS IS THE URL OG THE REPO]
+then we can add and commmit anythin g we want  ..
